@@ -1,0 +1,11 @@
+
+FICHA DE VIDEOJUEGO
+Estudiante: Revision
+Node.js: v22.17.1
+Plataforma del sistema: win32
+
+Título: the legend of zelda: breath of the wild
+Estudio: nintendo
+Año: 2017
+Plataformas: nintendo switch, wii U
+¿Es multijugador?: no

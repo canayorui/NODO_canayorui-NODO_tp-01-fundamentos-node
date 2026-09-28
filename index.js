@@ -1,11 +1,11 @@
-const fs = require("fs"); //
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
-const args = process.argv.silece(2);
+const args = process.argv.slice(2);
 const estudiante = args[0] || "estudiante anonimo";
 
 console.log("version de node.js:", process.version);
-console.log ("plataforma de sistema:", process.plataforma);
+console.log ("plataforma de sistema:", process.platform);
 
 const videojuego = {
     titulo:"the legend of zelda: breath of the wild",
@@ -15,7 +15,7 @@ const videojuego = {
     multijugador: false,
 };
 
-const plataformasTexto = videojuego.plaformas.join(", ");
+const plataformasTexto = videojuego.plataformas.join(", ");
 const multijugadorTexto = videojuego.multijugador? "si": "no";
 
 const ficha = `
